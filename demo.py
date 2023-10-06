@@ -3,10 +3,7 @@ from langchain.document_loaders import AssemblyAIAudioTranscriptLoader
 from langchain.llms import OpenAI
 from langchain.chains.question_answering import load_qa_chain
 import os
-# replace with your API token
-# aai.settings.api_key = f"0ea299f478b542ebab612b83c7afcfda"
-# Set your OpenAI API key
-# os.environ["OPENAI_API_KEY"] = "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"
+
 import json
 
 # Load API keys from the configuration file
